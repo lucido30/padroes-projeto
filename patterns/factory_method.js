@@ -1,7 +1,3 @@
-<<<<<<< ours
-// Factory Method example: document exporter.
-=======
->>>>>>> theirs
 class Document {
   export() {
     throw new Error("Method export() must be implemented");

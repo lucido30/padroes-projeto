@@ -1,7 +1,3 @@
-<<<<<<< ours
-// Observer example: subject notifies dependents of state changes.
-=======
->>>>>>> theirs
 class Subject {
   constructor() {
     this._observers = [];
@@ -15,10 +11,6 @@ class Subject {
   setState(value) {
     this._state = value;
     for (const observer of this._observers) {
-<<<<<<< ours
-      // Notify each observer.
-=======
->>>>>>> theirs
       observer.update(value);
     }
   }

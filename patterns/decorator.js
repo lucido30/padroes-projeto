@@ -1,7 +1,3 @@
-<<<<<<< ours
-// Decorator example: add formatting to a text printer.
-=======
->>>>>>> theirs
 class TextPrinter {
   render(text) {
     return text;
@@ -9,10 +5,6 @@ class TextPrinter {
 }
 
 class PrinterDecorator extends TextPrinter {
-<<<<<<< ours
-  // Base decorator wraps another printer and delegates calls.
-=======
->>>>>>> theirs
   constructor(printer) {
     super();
     this.printer = printer;

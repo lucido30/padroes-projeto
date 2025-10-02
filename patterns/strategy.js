@@ -1,7 +1,3 @@
-<<<<<<< ours
-// Strategy example: choose among different discount algorithms.
-=======
->>>>>>> theirs
 class DiscountStrategy {
   apply(total) {
     throw new Error("Method apply() must be implemented");
@@ -26,10 +22,6 @@ class PercentageDiscount extends DiscountStrategy {
 }
 
 class Checkout {
-<<<<<<< ours
-  // Strategy is injected, so the algorithm can change at runtime.
-=======
->>>>>>> theirs
   constructor(strategy) {
     this.strategy = strategy;
   }
